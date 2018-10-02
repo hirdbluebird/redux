@@ -2,9 +2,9 @@ module.exports = {
   devtool: 'inline-sourcemap',
   entry: './index.js',
   output: {
-    filename: 'bundle.js',
+    filename: 'bundle.js'
   },
-  module {
+  module: {
     loaders: [
       {
         test: /\.js$/,
@@ -16,4 +16,4 @@ module.exports = {
       }
     ]
   }
-}
+};
